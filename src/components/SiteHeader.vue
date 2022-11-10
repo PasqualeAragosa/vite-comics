@@ -13,35 +13,58 @@ export default {
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Movies',
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Tv',
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Games',
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Collectibles',
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Videos',
                     href: '#'
                 },
                 {
-                    text: 'Characters',
+                    text: 'Fans',
                     href: '#'
                 },
+                {
+                    text: 'News',
+                    href: '#'
+                },
+                {
+                    text: 'Shop',
+                    href: '#'
+                },
+
             ]
         }
     }
 }
 </script>
-<template></template>
+
+<template>
+    <header id="site-header">
+        <div class="logo">
+            <img src="../assets/img/dc-logo-bg.png" alt="">
+        </div>
+        <!-- /.logo -->
+        <nav class="navbar">
+            <a v-for="item in menu" :class="item.text === 'Comics' ? 'active' : ''" :href="item.href">
+                {{ item.text }}
+            </a>
+        </nav>
+        <!-- /.navbar -->
+    </header>
+</template>
 <style>
 
 </style>
