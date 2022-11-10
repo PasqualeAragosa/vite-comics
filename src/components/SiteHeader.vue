@@ -53,16 +53,19 @@ export default {
 
 <template>
     <header id="site-header">
-        <div class="logo">
-            <img src="../assets/img/dc-logo-bg.png" alt="">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../assets/img/dc-logo.png" alt="">
+            </div>
+            <!-- /.logo -->
+            <nav class="navbar">
+                <a v-for="item in menu" :class="item.text === 'Comics' ? 'active' : ''" :href="item.href">
+                    {{ item.text }}
+                </a>
+            </nav>
+            <!-- /.navbar -->
         </div>
-        <!-- /.logo -->
-        <nav class="navbar">
-            <a v-for="item in menu" :class="item.text === 'Comics' ? 'active' : ''" :href="item.href">
-                {{ item.text }}
-            </a>
-        </nav>
-        <!-- /.navbar -->
+        <!-- /.wrapper -->
     </header>
 </template>
 <style>

@@ -1,0 +1,29 @@
+@use './variables' as *;
+
+header {
+    background-color: $light;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+        .logo {
+            color: $logo_color;
+        }
+
+        .navbar {
+
+            a {
+                text-decoration: none;
+                padding: 0.75rem;
+                text-transform: uppercase;
+                color: $social_color;
+            }
+        }
+    }
+
+}
