@@ -1,12 +1,12 @@
 <script>
 import ProductList from './AppMain/ProductList.vue';
-import Showcase from './AppMain/Showcase.vue';
+import ShowCase from './AppMain/ShowCase.vue';
 
 export default {
     name: 'AppMain',
     components: {
         ProductList,
-        Showcase
+        ShowCase
     }
 }
 </script>
@@ -14,7 +14,7 @@ export default {
 <template>
     <main>
         <ProductList />
-        <Showcase />
+        <ShowCase />
     </main>
 </template>
 

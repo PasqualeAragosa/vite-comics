@@ -1,10 +1,10 @@
 <script>
-import Infobox from './AppFooter/Infobox.vue';
+import InfoBox from './AppFooter/InfoBox.vue';
 
 export default {
     name: 'AppFooter',
     components: {
-        Infobox
+        InfoBox
     },
     data() {
         return {
