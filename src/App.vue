@@ -1,29 +1,23 @@
 <script>
-import SiteHeader from './components/SiteHeader.vue'
-import SiteMain from './components/SiteMain.vue'
-import SiteFooter from './components/SiteFooter.vue'
-
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppHeader.vue';
+import AppFooter from './components/AppHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    SiteHeader,
-    SiteMain,
-    SiteFooter
+    AppHeader,
+    AppMain,
+    AppFooter
   }
-
 }
 </script>
 
 <template>
 
-  <site-header></site-header>
-  <!-- /#site-header -->
-  <site-main></site-main>
-  <!-- /#site-main -->
-  <site-footer></site-footer>
-  <!-- /#site-footer -->
-
+  <app-header></app-header>
+  <app-main></app-main>
+  <app-footer></app-footer>
 
 </template>
 
