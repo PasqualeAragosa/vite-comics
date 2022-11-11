@@ -78,7 +78,7 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 header {
-    background-color: $light;
+    background-color: white;
     padding: 1rem 0;
 
     .logo {
@@ -95,11 +95,11 @@ header {
                 padding: 2rem 1rem;
                 text-transform: uppercase;
                 text-decoration: none;
-                color: $dark-primary;
+                color: black;
 
                 &:hover {
-                    color: $dc-primary;
-                    border-bottom: 4px solid $dc-primary;
+                    color: blue;
+                    border-bottom: 4px solid blue;
                 }
             }
         }
