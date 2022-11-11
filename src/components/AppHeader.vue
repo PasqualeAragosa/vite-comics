@@ -55,7 +55,7 @@ export default {
 
     <header>
         <nav class="navbar">
-            <div class="container d-flex align-items-center justify-content-between">
+            <div class="container">
                 <div class="logo">
                     <img src="../assets/img/dc-logo.png" alt="">
                 </div>
@@ -81,25 +81,37 @@ header {
     background-color: white;
     padding: 1rem 0;
 
-    .logo {
-        height: 70px;
-    }
+    .navbar {
+        padding: 1rem 0;
+        max-width: 1100px;
+        margin: auto;
 
-    ul {
-        list-style: none;
-        display: flex;
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
-        li {
-            a {
-                font-weight: 600;
-                padding: 2rem 1rem;
-                text-transform: uppercase;
-                text-decoration: none;
-                color: black;
+            .logo {
+                height: 70px;
+            }
 
-                &:hover {
-                    color: blue;
-                    border-bottom: 4px solid blue;
+            ul {
+                list-style: none;
+                display: flex;
+
+                li {
+                    a {
+                        font-weight: 600;
+                        padding: 2rem 1rem;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        color: black;
+
+                        &:hover {
+                            color: blue;
+                            border-bottom: 4px solid blue;
+                        }
+                    }
                 }
             }
         }
