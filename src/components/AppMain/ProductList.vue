@@ -1,4 +1,10 @@
-<script></script>
+<script>
+export default {
+    name: 'ProductList'
+}
+
+
+</script>
 
 <template>
 

@@ -13,8 +13,8 @@ export default {
 
 <template>
     <main>
-        <ProductList />
-        <ShowCase />
+        <ProductList></ProductList>
+        <ShowCase></ShowCase>
     </main>
 </template>
 
