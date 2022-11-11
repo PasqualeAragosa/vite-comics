@@ -79,7 +79,6 @@ header {
     background-color: white;
 
     .navbar {
-        // padding: 1rem 0;
         max-width: 1100px;
         margin: auto;
 
@@ -109,8 +108,8 @@ header {
                         color: grey;
 
                         &:hover {
-                            color: blue;
-                            border-bottom: 5px solid blue;
+                            color: #0282f9;
+                            border-bottom: 5px solid #0282f9;
                         }
                     }
                 }

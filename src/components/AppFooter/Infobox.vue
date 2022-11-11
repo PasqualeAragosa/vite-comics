@@ -15,7 +15,7 @@ export default {
                 ],
             Shop:
                 [
-                    'shop DC',
+                    'Shop DC',
                     'Shop DC Collectibles',
                 ],
             Dc:
@@ -91,6 +91,8 @@ export default {
 <style lang="scss" scoped>
 .info-box {
     background-image: url('../../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
 
     .container {

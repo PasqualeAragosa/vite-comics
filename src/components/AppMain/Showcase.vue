@@ -46,14 +46,14 @@ export default {
 
 <style lang="scss" scoped>
 .show-case {
-    background-color: blue;
+    background-color: #0282f9;
 
     .container {
         max-width: 1100px;
         margin: auto;
         display: flex;
         justify-content: space-evenly;
-        padding: 1rem 0;
+        padding: 3rem 0;
 
         .item {
             display: flex;
