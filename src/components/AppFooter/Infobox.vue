@@ -78,7 +78,6 @@ export default {
             </div>
             <!-- /.details -->
             <div class="logo">
-                <!-- <img src="../../assets/img/dc-logo-bg.png" alt=""> -->
             </div>
             <!-- /.logo -->
         </div>

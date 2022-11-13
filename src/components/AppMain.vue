@@ -1,12 +1,14 @@
 <script>
 import ProductList from './AppMain/ProductList.vue';
 import ShowCase from './AppMain/ShowCase.vue';
+import JumbotronBanner from './AppMain/JumbotronBanner.vue'
 
 export default {
     name: 'AppMain',
     components: {
         ProductList,
-        ShowCase
+        ShowCase,
+        JumbotronBanner
     }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
     <main>
         <ProductList></ProductList>
         <ShowCase></ShowCase>
+        <JumbotronBanner></JumbotronBanner>
     </main>
 </template>
 
