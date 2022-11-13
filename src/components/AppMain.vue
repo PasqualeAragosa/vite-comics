@@ -1,23 +1,23 @@
 <script>
+import JumbotronBanner from './AppMain/JumbotronBanner.vue'
 import ProductList from './AppMain/ProductList.vue';
 import ShowCase from './AppMain/ShowCase.vue';
-import JumbotronBanner from './AppMain/JumbotronBanner.vue'
 
 export default {
     name: 'AppMain',
     components: {
+        JumbotronBanner,
         ProductList,
         ShowCase,
-        JumbotronBanner
     }
 }
 </script>
 
 <template>
     <main>
+        <JumbotronBanner></JumbotronBanner>
         <ProductList></ProductList>
         <ShowCase></ShowCase>
-        <JumbotronBanner></JumbotronBanner>
     </main>
 </template>
 
