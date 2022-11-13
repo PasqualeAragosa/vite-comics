@@ -39,7 +39,7 @@ export default {
 
     span.current {
         text-transform: uppercase;
-        background-color: blue;
+        background-color: #0282f9;
         padding: 0.5rem 1rem;
         font-size: 1.5rem;
         position: absolute;
@@ -57,7 +57,7 @@ export default {
 
         span {
             text-transform: uppercase;
-            background-color: blue;
+            background-color: #0282f9;
             margin: auto;
             font-size: 1rem;
             padding: 0.5rem 2.5rem;

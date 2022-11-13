@@ -61,7 +61,7 @@ export default {
                 <!-- /.logo -->
                 <ul class="main-menu">
                     <li v-for="item in menu">
-                        <a :href="item.href"> {{ item.text }} </a>
+                        <a :href="item.href" :class="item.text === 'Comics' ? 'active' : ''"> {{ item.text }} </a>
                     </li>
                 </ul>
                 <!-- /.main-menu -->
@@ -73,10 +73,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
+@use '../assets/scss/partials/variables.scss' as *;
 
 header {
-    background-color: white;
+    background-color: $light;
 
     .navbar {
         max-width: 1100px;
@@ -109,7 +109,12 @@ header {
 
                         &:hover {
                             color: #0282f9;
-                            border-bottom: 5px solid #0282f9;
+                            border-bottom: 5px solid $primary;
+                        }
+
+                        &.active {
+                            color: $primary;
+                            border-bottom: 5px solid $primary;
                         }
                     }
                 }
